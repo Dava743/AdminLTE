@@ -247,6 +247,13 @@ return [
             'label'       => 4,
             'label_color' => 'success',
         ],
+        ['header' => 'menu'],
+        [
+            'text' => 'Buku',
+            'url'  => 'admin/books',
+            'icon' => 'fas fa-fw fa-book',
+            'can'  => 'IsAdmin',
+        ],
         ['header' => 'account_settings'],
         [
             'text' => 'profile',
